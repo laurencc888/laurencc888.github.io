@@ -1,7 +1,7 @@
 import { Avatar, AvatarFallback } from "@/components/ui/avatar";
 import { useScrollAnimation } from "@/hooks/useScrollAnimation";
 import { AvatarImage } from "@radix-ui/react-avatar";
-import profilePic from "../misc/pfp.jpeg";
+import profilePic from "../misc/pfp.JPG";
 
 const AboutSection = () => {
   const { ref, isVisible } = useScrollAnimation();
